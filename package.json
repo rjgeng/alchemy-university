@@ -1,0 +1,26 @@
+{
+  "name": "alchemy-university",
+  "version": "1.0.0",
+  "description": "Alchemy University",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "cross-env NODE_ENV=testing jest --verbose --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjgeng/alchemy-university.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjgeng/alchemy-university/issues"
+  },
+  "homepage": "https://github.com/rjgeng/alchemy-university#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.5",
+    "eslint": "^8.32.0",
+    "eslint-plugin-react": "^7.32.1",
+    "jest": "^29.3.1"
+  }
+}
